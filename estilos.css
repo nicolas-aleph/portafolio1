@@ -1,0 +1,116 @@
+
+header {
+    position: fixed;
+    right: 0;
+    left: 0;
+    background-color: whitesmoke;
+}
+.hr {
+    margin-left: 40px;
+    border: solid 2px black;
+}
+.titulo {
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+    letter-spacing: 0.7em;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Questrial', sans-serif;
+    font-size: 3.5em;
+    text-align: right;
+    color: rgb(34, 34, 34);
+}
+.contenido {
+    padding-top: 8em;
+}
+body {
+    background-color: whitesmoke;
+    margin: 0;
+}
+
+.lista {
+    position: fixed;
+    background-color: whitesmoke;
+    margin-right: 8%;
+    list-style: none;
+}
+.lista li a {
+    color:rgb(34, 34, 34);
+    text-decoration: none;
+    font-size: 1.3em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 2em;
+    display: inline-block;
+    border: black solid 1px;
+    padding: 5px;
+}
+.img {
+    width: 100%;
+}
+.aside { 
+    background-color: whitesmoke;
+    width: 300px;
+}
+.lateralfijo {
+    display: flex;
+}
+.seccion1 hr {
+    margin-left: 270px;
+    margin-top: 40px;
+    
+}
+.articulo1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    right: 0;
+    margin-left: 270px;
+    margin-bottom: 0;
+    
+}
+.texto1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    text-align: justify;
+    font-weight: bold;
+    border: black solid 1px;
+    padding: 1.3em;
+    margin-right: 2em;
+}
+.imagen2 {
+    width: 45%;
+}
+.articulo2 {
+    display: flex;
+    align-items: center;
+    right: 0;
+    margin-left: 270px;
+    margin-bottom: 0;
+    
+}
+.texto2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    text-align: justify;
+ /*    border: black solid 1px; */
+    padding: 1.3em;
+    margin-right: 2em;
+}
+.imagen3 {
+    width: 45%;
+}
+.hrfooter {
+    margin-left: 270px;
+    border: solid 1px black;
+
+}
+.insta {
+    width: 48px;
+}
+.iconos a {
+    padding: 3em;
+}
+.iconos {
+    margin-top: 2em;
+    text-align: right;
+}

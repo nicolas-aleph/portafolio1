@@ -1,0 +1,242 @@
+body {
+    background-color: whitesmoke;
+    margin: 0;
+}
+header {
+
+    position: fixed;
+    right: 0;
+    left: 0;
+    background-color: whitesmoke;
+    height: 120px;
+}
+.titulo {
+    margin-top: 22px;
+    margin-bottom: 22px;
+    letter-spacing: 30px;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 45px;
+    text-align: right;
+    color: rgb(34, 34, 34);
+}
+hr {
+    margin-left: 40px;
+}
+.lateral {
+    min-width: 280px;
+    margin-top: 125px;
+    position: fixed;
+    background-color: whitesmoke;
+}
+.lista {
+    list-style: none;
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;  
+    align-content: center; 
+    
+}
+li {
+    display: flex;
+    justify-content: center; 
+    width: 150px;
+    border: black solid 1px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    box-shadow: rgb(57, 57, 57) 6px 6px;
+}
+a {
+    color:rgb(34, 34, 34);
+    text-decoration: none;
+}
+.contenedor {
+    display: flex;
+    width: 100%;  
+}
+.vacioimg {
+    min-width: 300px;
+}
+.imgprincipal {
+    margin-top: 120px;
+    padding-top: 20px;
+    width: 100%;
+}
+.contenedor2 {
+    display: flex;
+    margin-top: 50px;
+}
+.vacioizq {
+    min-width: 300px;
+}
+.principal1 {
+    display: flex;
+    width: 1122px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.principal1 div {
+    margin: 23px;
+    margin-top:100px;
+}
+.texto1 {
+    width: 510px;
+    display: flex;
+    align-items: center;
+}
+.texto1 p {
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    text-align: justify;
+    font-weight: 600;
+    border: black solid 3px;
+    padding: 35px;
+    margin: 40px;
+    height: 100px;
+    box-shadow: rgb(0, 0, 0) 8px 8px;
+}
+.texto2 {
+    width: 510px;
+    display: flex;
+    align-items: center;
+}
+.texto2 p {
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    text-align: justify;
+    font-weight: 400;
+    padding: 15px;
+}
+.texto3 {
+    width: 510px;
+    display: flex;
+    align-items: center;
+}
+.texto3 p {
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    text-align: justify;
+    font-weight: 600;
+    border: black solid 3px;
+    padding: 35px;
+    margin: 40px;
+    height: 70px;
+    box-shadow: rgb(0, 0, 0) 8px 8px;
+}
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+.footer img {
+    margin: 20px 50px;
+}
+@media (max-width: 1414px) {
+    .principal1 {
+        width: 100%;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 847px) {
+    header {
+        position: relative;
+        width: auto;
+        height: auto;
+    }
+    .titulo {
+        margin-top: 30px;
+        margin-bottom: 15px;
+        letter-spacing: 30px;
+        font-family: 'Syncopate', sans-serif;
+        font-size: 40px;
+        width: 100%;
+        color: rgb(34, 34, 34);
+    }
+    hr {
+        margin: 10px 10px 0 10px;
+    }
+    .lateral {
+        min-width: 280px;
+        margin-top: 0;
+        position: relative;
+        background-color: whitesmoke;
+    }
+    .lista {
+        max-width: 768px;
+        height: auto;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 10px 10px 10px;
+        
+    }
+    ul {
+        padding: 0;
+    }
+    li {
+        display: flex;
+        justify-content: center; 
+        padding: 5px;
+        font-size: 13px;
+        box-shadow: none;
+        margin: 0 3px 30px 3px;   
+    }
+    .vacioimg {
+        display: none;
+    }
+    .principal1 {
+        display: flex;
+        justify-content: center;
+    }
+    .imgprincipal {
+        margin: 0;
+        padding-top: 0px;
+        width: 100%;
+    }
+    .vacioizq {
+        display: none;
+    }
+    .principal1 div {
+        margin: 23px;
+        margin-top:0;
+    }
+     .texto3 {
+        order: 6;
+     }
+     .texto1 p {
+         margin: 0 65px 30px;
+        font-size: 20px;
+        font-weight: 600;
+        height: 70px; 
+    }
+    .texto3 p {
+        margin: 0 65px 30px;
+       font-size: 20px;
+       font-weight: 600;
+       height: 70px; 
+   }
+   .texto2 p {
+        border: solid 2px black;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 30px 30px;
+        margin:0;
+    }
+    .footer {
+        justify-content: center;
+    }
+  
+    
+    
+}
+
+
+
